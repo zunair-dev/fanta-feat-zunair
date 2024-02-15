@@ -1,3 +1,3 @@
 class Person < ApplicationRecord
-  has_many :laptops
+  has_many :laptops, dependent: :nullify
 end
